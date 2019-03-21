@@ -1,0 +1,72 @@
+*{
+    font-family: century gothic;
+}
+
+.main_navbar a{
+    font-size: 14px;
+    
+}
+
+.main_navbar nav{
+   height: 150px !important;
+}
+
+.bg{
+    background: white !important;
+}
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:rgba(0,0,0,0.6);
+}
+#shoppingCart{
+    background: linear-gradient(to bottom , #f1f1f1 , white);
+    padding: 35px;
+    border: 1px solid lightgray;
+}
+.footers{
+    background: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url('../img/footer.jpg');
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+   
+}
+.quick:hover{
+    width: 55px;
+    transition: 5s !important;
+    cursor: pointer;
+    
+    
+}
+
+.one{
+    width: 500px;
+    height: 100px;
+    background: black;
+}
+.copyright{
+   
+    padding: 50px;
+    border-top: 3px solid white;
+}
+.two{
+    width: 500px;
+    height: 300px;
+    background: black;
+}
+
+.three{
+    width: 500px;
+    height: 100px;
+    background: black;
+}
+.newprod{
+    border: 1px solid black !important;
+    padding: 25px !important;
+}
